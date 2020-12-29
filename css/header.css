@@ -1,0 +1,100 @@
+.header
+{
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  transition: 200ms;
+  z-index: 100;
+  padding: 5px 0 5px 0;
+}
+
+.header table
+{
+  color: white;
+  width: 95%;
+  margin: auto;
+}
+
+.header table td
+{
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header-links
+{
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+  transition: 300ms;
+}
+
+.header-links:hover
+{
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
+.header-links:after
+{
+  content: "";
+  display: block;
+  height: 2px;
+  background: #fff;
+  transition: 300ms;
+  width: 0;
+  margin: auto;
+}
+
+.header-links:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.add-venue-button
+{
+  font-family: 'Rosenpark-Body';
+  padding: 8px 25px 8px 25px;
+  width: 100%;
+  font-size: 18px;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 300ms;
+  letter-spacing: 0.05em;
+}
+
+.add-venue-button:hover
+{
+  cursor: pointer;
+  background-color: white;
+  color: darkcyan;
+  transition: 300ms;
+}
+
+.logo
+{
+  width: 55%;
+}
+
+.logo-text {
+  width: 17%;
+  font-family: 'Rosenpark';
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  display: block;
+  transition: 300ms;
+}
+
+.logo-text:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+}

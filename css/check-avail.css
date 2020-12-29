@@ -1,0 +1,26 @@
+.check-avail
+{
+  width: 100%;
+}
+
+.check-avail table
+{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.check-avail thead
+{
+  text-align: center;
+}
+
+.check-avail td
+{
+  width: 25%;
+  text-align: center;
+}
+
+.check-avail .b-num
+{
+  width: 10%;
+}

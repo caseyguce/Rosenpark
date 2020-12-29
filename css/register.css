@@ -1,0 +1,23 @@
+.register
+{
+  padding-top: 120px;
+  background-image: url("../images/login.jpg");
+  height: 100%;
+}
+
+.register form
+{
+  width: 30%;
+  margin: auto;
+}
+
+.register h1
+{
+  font-family: 'Rosenpark-Body';
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+  text-align: center;
+}

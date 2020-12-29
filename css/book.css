@@ -1,0 +1,104 @@
+.book
+{
+  width: 100%;
+}
+
+.book table
+{
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.book td
+{
+  width: 25%;
+  padding: 5px;
+}
+
+.book h4
+{
+  padding: 0;
+  margin: 0;
+}
+
+.book input
+{
+  width: 80%;
+}
+
+.book .compute
+{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.compute button
+{
+  width: 100%;
+}
+
+.book select
+{
+  font-size: 14px;
+  padding: initial;
+  width: 79%;
+  border: 1px solid gray;
+}
+
+.book .label
+{
+  width: 5%;
+}
+
+.book .label-time
+{
+  width: 11%;
+}
+
+.book .time
+{
+  width: 50%;
+}
+
+.compute-rate
+{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.compute-rate img
+{
+  float: left;
+  margin: 0 10px 0 0;
+  width: 400px;
+}
+
+.compute-rate table
+{
+
+}
+
+.book-info
+{
+  border: 1px solid gray;
+  border-radius: 5px;
+  border-spacing: 10px;
+  padding: 10px;
+}
+
+.book-info h2
+{
+  margin: 0;
+}
+
+.book-info td
+{
+  width: 50%;
+}
+
+.book-info button
+{
+  float: right;
+  padding: 5px 30px 5px 30px;
+}

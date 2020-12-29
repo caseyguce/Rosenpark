@@ -1,0 +1,66 @@
+.bookings
+{
+  width: 70%;
+}
+
+.bookings td
+{
+  vertical-align: center;
+  width: 11%;
+}
+
+.bookings button
+{
+  padding: 5px;
+  font-size: 14px;
+}
+
+.my-bookings
+{
+  padding-top: 100px;
+  padding-bottom: 250px;
+  width: 85%;
+  margin: auto;
+}
+
+.my-bookings table
+{
+  width: 100%;
+}
+
+.my-bookings td
+{
+  width: 10%;
+}
+
+.my-bookings a
+{
+  color: darkcyan;
+}
+
+.my-bookings a:hover
+{
+  text-decoration: underline;
+}
+
+.title-browse td
+{
+  border: 0;
+}
+
+.my-bookings button
+{
+  font-family: 'Rosenpark-Body';
+  background-color: darkcyan;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  transition: 200ms;
+}
+
+.my-bookings button:hover
+{
+  background-color: cadetblue;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.browse
+{
+  padding: 100px 0 100px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.browse h1
+{
+  font-family: 'Rosenpark-Body';
+}
+
+.browse table
+{
+  text-align: justify;
+  border-spacing: 20px;
+  width: 100%;
+}
+
+.browse td
+{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 0 20px 0 0;
+  width: 100%;
+}
+
+.browse img
+{
+  float: left;
+  margin: 0;
+  margin-right: 15px;
+  width: 350px;
+  height: 240px;
+  border-radius: 10px 0 0 10px;
+}
+
+.browse h2, h3
+{
+  font-family: 'Rosenpark-Body';
+  font-weight: lighter;
+}
+
+.browse button
+{
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Rosenpark-Body';
+  background-color: darkcyan;
+  color: white;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  transition: 0.2s;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+.browse button:hover
+{
+  cursor: pointer;
+  background: none;
+  color: darkcyan;
+  transition: 0.2s;
+}

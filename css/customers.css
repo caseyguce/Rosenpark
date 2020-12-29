@@ -1,0 +1,35 @@
+.customers table
+{
+  text-align: center;
+}
+
+.customers td
+{
+  padding: 20px;
+  width: 50%;
+}
+
+.customers button
+{
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.customers button:hover
+{
+  cursor: pointer;
+  background-color: darkcyan;
+  transition: 0.2s;
+}
+
+.customers h1
+{
+  font-family: 'Rosenpark-Body';
+  font-weight: lighter;
+}

@@ -1,0 +1,71 @@
+.view
+{
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.view table
+{
+  width: 100%;
+}
+
+.view td
+{
+  width: 100%;
+}
+
+.view img
+{
+  width: 100%;
+}
+
+.view h1, h2, h3, h4
+{
+  font-family: 'Rosenpark-Body';
+}
+
+.view h3, p
+{
+  margin: 0;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.view h4, p
+{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.view button
+{
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Rosenpark-Body';
+  background-color: darkcyan;
+  color: white;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.view button:hover
+{
+  cursor: pointer;
+  background: none;
+  color: darkcyan;
+  transition: 0.2s;
+}
+
+.view a
+{
+  color: darkcyan;
+}
+
+.view a:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+}

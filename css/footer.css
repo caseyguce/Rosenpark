@@ -1,0 +1,69 @@
+.footer
+{
+  background-color: darkcyan;
+  padding: 20px;
+}
+
+.footer table
+{
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+
+.footer td
+{
+  padding: 15px;
+  vertical-align: top;
+  width: 25%;
+}
+
+.footer h1
+{
+  font-family: 'Rosenpark';
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.footer h4
+{
+  font-family: 'Rosenpark-Body';
+  font-weight: lighter;
+}
+
+.footer a:hover
+{
+  text-decoration: underline;
+}
+
+.footer p
+{
+  font-size: 14px;
+  text-align: justify;
+}
+
+.footer ul
+{
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.footer button
+{
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  transition: 0.2s;
+}
+
+.footer button:hover
+{
+  cursor: pointer;
+  background-color: cadetblue;
+  transition: 0.2s;
+}

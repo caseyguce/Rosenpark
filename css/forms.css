@@ -1,0 +1,79 @@
+.forms
+{
+  background-color: rgba(255,255,255,1);
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.forms table
+{
+  width: 100%;
+  font-size: 18px;
+}
+
+.forms td
+{
+  padding: 8px;
+}
+
+.forms .label
+{
+  width: 30%;
+}
+
+.forms input, select
+{
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid darkcyan;
+  font-size: 18px;
+  padding: 2px;
+  transition: 0.2s;
+}
+
+.forms select
+{
+  border: 1px solid darkcyan;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.forms input:focus
+{
+  border-bottom: 1px solid turquoise;
+  transition: 0.2s;
+}
+
+.forms select:hover
+{
+  cursor: pointer;
+}
+
+.forms .button
+{
+  background-color: darkcyan;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  font-family: 'Rosenpark-Body';
+  border: 1px solid darkcyan;
+}
+
+.forms .button:hover
+{
+  background-color: white;
+  color: darkcyan;
+  cursor: pointer;
+}
+
+.forms a
+{
+  color: darkcyan;
+  font-size: 14px;
+}
+
+.forms a:hover
+{
+  text-decoration: underline;
+}

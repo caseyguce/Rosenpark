@@ -1,0 +1,88 @@
+.edit-form
+{
+  padding-top: 80px;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.edit-form table
+{
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+  border-spacing: 5px;
+}
+
+.edit-form h1
+{
+  font-family: 'Rosenpark-Body';
+}
+
+.edit-form td
+{
+  padding: 2px 5px 5px 5px;
+}
+
+.edit-form input
+{
+  width: 100%;
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+.edit-form .rate
+{
+  width: 84.5%;
+  border: 1px solid gray;
+}
+
+.edit-form button
+{
+  float: right;
+  font-size: 18px;
+  padding: 5px 30px 5px 30px;
+  background-color: darkcyan;
+  color: white;
+  font-family: 'Rosenpark-Body';
+  border: 1px solid darkcyan;
+  transition: 0.2s;
+}
+
+.edit-form button:hover
+{
+  background: none;
+  color: darkcyan;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.edit-form select
+{
+  font-size: 15px;
+  border: 1px solid gray;
+  padding: 0;
+  width: 100%;
+}
+
+.edit-form img
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.edit-form a
+{
+  color: darkcyan;
+}
+
+.edit-form a:hover
+{
+  text-decoration: underline;
+}
+
+.edit-form .label
+{
+  width: 15%;
+}
